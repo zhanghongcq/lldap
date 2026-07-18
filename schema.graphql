@@ -85,7 +85,7 @@ input UpdateGroupInput {
 "The fields that can be updated for a user."
 input UpdateUserInput {
   id: String!
-  email: String
+  email: String!
   displayName: String
   """
     First name of user. Deprecated: use attribute instead.
